@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>rd.crossbinder</groupId>
+		<artifactId>rd.crossbinder.ext</artifactId>
+		<version>0.4-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>rd.crossbinder.servlet</artifactId>
+	<name>Crossbinder Servlets</name>
+	<description>Integration of Crossbinder with a standard servlet environment</description>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>rd.crossbinder</groupId>
+			<artifactId>rd.crossbinder.jackson</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+	</dependencies>
+
+</project>
