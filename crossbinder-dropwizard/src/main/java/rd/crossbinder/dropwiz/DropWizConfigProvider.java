@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.crossbinder.dropwizard;
+package rd.crossbinder.dropwiz;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

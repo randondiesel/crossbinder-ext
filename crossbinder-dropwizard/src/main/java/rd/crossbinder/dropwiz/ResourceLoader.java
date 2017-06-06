@@ -14,7 +14,7 @@
  * the License.
  */
 
-package com.crossbinder.dropwizard;
+package rd.crossbinder.dropwiz;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
