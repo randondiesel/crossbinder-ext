@@ -26,14 +26,14 @@
 				<enabled>false</enabled>
 			</snapshots>
 			<id>randondiesel-release</id>
-			<url>http://randondiesel.com/repository/releases</url>
+			<url>http://repo.randondiesel.com/artifactory/releases</url>
 		</repository>
 		<repository>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 			<id>randondiesel-snapshot</id>
-			<url>http://randondiesel.com/repository/snapshots</url>
+			<url>http://repo.randondiesel.com/artifactory/snapshots</url>
 		</repository>
 		<repository>
 			<id>central</id>
@@ -105,18 +105,18 @@
 		<dependency>
 			<groupId>rd.crossbinder</groupId>
 			<artifactId>rd.crossbinder.hod</artifactId>
-			<version>0.4.3</version>
+			<version>0.5.0</version>
 		</dependency>
 	</dependencies>
 
 	<distributionManagement>
 		<repository>
 			<id>randondiesel-release</id>
-			<url>http://randondiesel.com/repository/releases</url>
+			<url>http://repo.randondiesel.com/artifactory/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>randondiesel-snapshot</id>
-			<url>http://randondiesel.com/repository/snapshots</url>
+			<url>http://repo.randondiesel.com/artifactory/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
