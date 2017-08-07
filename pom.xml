@@ -10,7 +10,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>rd.crossbinder</groupId>
 	<artifactId>rd.crossbinder.ext</artifactId>
-	<version>0.4-SNAPSHOT</version>
+	<version>0.4.5</version>
 	<name>Crossbinder Extensions</name>
 	<description>A set of extensions to crossbinder for basic features and deployment</description>
 	<packaging>pom</packaging>
