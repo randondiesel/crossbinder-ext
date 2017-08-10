@@ -20,31 +20,6 @@
 		<connection>scm:git:https://github.com/randondiesel/crossbinder-ext.git</connection>
 	</scm>
 
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>randondiesel-release</id>
-			<url>http://repo.randondiesel.com/artifactory/releases</url>
-		</repository>
-		<repository>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<id>randondiesel-snapshot</id>
-			<url>http://repo.randondiesel.com/artifactory/snapshots</url>
-		</repository>
-		<repository>
-			<id>central</id>
-			<name>Central Repository</name>
-			<url>http://repo.maven.apache.org/maven2</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
 	<modules>
 		<module>crossbinder-extern</module>
 		<module>crossbinder-commons-config</module>
@@ -112,11 +87,11 @@
 	<distributionManagement>
 		<repository>
 			<id>randondiesel-release</id>
-			<url>http://repo.randondiesel.com/artifactory/releases</url>
+			<url>${deploy.release.url}</url>
 		</repository>
 		<snapshotRepository>
 			<id>randondiesel-snapshot</id>
-			<url>http://repo.randondiesel.com/artifactory/snapshots</url>
+			<url>${deploy.snapshot.url}</url>
 		</snapshotRepository>
 	</distributionManagement>
 
