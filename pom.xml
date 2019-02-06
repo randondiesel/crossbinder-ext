@@ -21,7 +21,6 @@
 	</scm>
 
 	<modules>
-		<module>crossbinder-commons-config</module>
 		<module>crossbinder-jackson</module>
 		<module>crossbinder-servlet</module>
 		<module>crossbinder-dropwizard</module>
